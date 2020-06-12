@@ -1,0 +1,168 @@
+/*共通CSS*/
+body {
+    margin:0;
+}
+img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.id {
+    font-size:10px;
+}
+a {
+    text-decoration: none;
+    display:inline-block;
+}
+span {
+    display:inline-block;
+}
+main {
+    display:flex;
+    width:1270px;
+    margin:0 auto;
+}
+nav {
+    width: 250px;
+    margin: 30px 10px 0 50px;
+}
+textarea {
+    resize: none;
+}
+.comment {
+    padding: 5px 15px 20px;
+    margin: 2em 0;
+    border: solid 2px #6091d3;
+    border-radius: 10px;
+    width: 550px;
+}
+.name {
+    font-weight: bold;
+}
+.user_info {
+    display:flex;
+    margin-top:10px;
+}
+.user_name {
+    margin:5px 0 0 10px;
+}
+.post_button {
+    margin-left: 475px;
+}
+.comment_prof {
+    font-size:13px;
+}
+.follow_prof {
+    font-size:13px;
+    font-weight:bold;
+}
+section {
+    border-right: solid 0.5px #DCDCDC;
+    border-left: solid 0.5px #DCDCDC;
+}
+ul {
+    list-style:none;
+    margin-top: 40px;
+}
+.prof_menu {
+    margin:0 0 30px -40px;
+    color: #7b7979;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+
+    color: #ffffff;
+    line-height: 1em;
+    transition: 0.2s;
+    font-weight:bold;
+}
+.follow {
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 6px 10px;
+    background: #6091d3;
+    border: 2px solid #6091d3;
+}
+
+.follow:hover {
+    color: #6091d3;
+    background: #ffffff;
+}
+.reply {
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 6px 10px;
+    background: #5a5959;
+    border: 2px solid #5a5959;
+}
+.reply:hover {
+    color: #5a5959;
+    background: #ffffff;
+}
+.post {
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 9px 19px;
+    background: #6091d3;
+    border: 2px solid #6091d3;
+}
+.post:hover {
+    color: #6091d3;
+    background: #ffffff;
+}
+.to_reply {
+    font-size:12px;
+    color:gray;
+    font-weight:bold;
+}
+/*home.phpのみのCSS*/
+.follower_msg {
+    font-size:10px;
+    background-color:#a29e9e;
+    color:#fff;
+    border-radius:4px;
+    padding-left:5px;
+    width:105px;
+}
+.replying {
+    margin-left:40px;
+    background-color:#e7edff;
+}
+.replying02 {
+    margin-left:80px;
+    background-color:#acbcef;
+}
+.user_search {
+    margin-top:200px;
+}
+.post_form {
+    margin: 50px 0px 50px 100px;
+}
+.timeline {
+    padding: 0 100px 80px;
+}
+.others {
+    padding: 15px 10px;
+    border-top: solid 1px #d0cdcd;
+}
+.btns {
+    display:flex;
+}
+.reply_btn {
+    margin-right:15px;
+}
+
+/*reply.phpのみのCSS*/
+
+.reply_form {
+    margin: 70px 0px;
+}
+
+.reply_msg {
+    margin-top: 50px;
+    padding: 0 100px 80px;
+}
